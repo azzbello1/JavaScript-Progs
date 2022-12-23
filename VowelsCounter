@@ -2,7 +2,6 @@
 <head>
 	<script type="text/javascript">
 		var count = 0;
-		document.write(vowels[3])
 		function countVowels(name)
 		{
 			for (var i=0;i< name.length;i++)
