@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script type = "text/javascript">
+      for (var i=2;i<=100; i++)
+       {
+     if ((i==2 || i==3 || i==5 || i==7) ||
+(i%2 != 0) && (i%3 != 0) && (i%5 !=0) && (i%7 !=0))
+     {
+document.writeln( i + " is  a prime <br />");
+     } else if
+     ((i%2 == 0) || (i%3 == 0) || (i%5 ==0) || (i%7==0))
+           {
+          document.writeln( i + " is  Not a prime <br />");
+           }
+          
+       } 
+         
+    </script>
+  </head>
+  <body>
+    
+    
+  </body>
+  
+  
+</html>
