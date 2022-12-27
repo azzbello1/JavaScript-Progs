@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script type = "text/javascript">
+       function canDivide(num, dvisor)
+        {
+        if ((num%dvisor == 0))
+          {
+          document.writeln( num + " is divisible by " + dvisor  + " giving "+ (num/dvisor)+ "<br/>");
+           } 
+           else
+           {
+document.writeln( num + " is NOT divisible by " + dvisor  + " remainder is "+ (num%dvisor)+ "<br/>");
+           }
+       }
+     var Dnum = prompt(" Input quotient number");
+     var dvsor = prompt(" input the divisor");
+     canDivide(Dnum,dvsor);
+    </script>
+  </head>
+  <body>
